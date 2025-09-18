@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon Blog‑Portfolio B2</title>
+  <meta name="description" content="Blog-portfolio de stage B2 : présentation, entreprise, articles (techniques et bilan), contact, CV et LinkedIn." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" media="print" onload="this.media='all'">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><div class="logo" aria-hidden="true"></div> Mon Stage B2</div>
+      <nav id="topnav" aria-label="Navigation principale">
+        <a href="#/accueil" data-route>À propos</a>
+        <a href="#/entreprise" data-route>Entreprise</a>
+        <a href="#/articles" data-route>Articles</a>
+        <a href="#/contact" data-route>Contact</a>
+        
+      </nav>
+      <div class="spacer"></div>
+      <div class="leftnav">
+        <a class="btn ghost" id="cvLink" href="" target="_blank" rel="noopener">CV</a>
+        <button class="btn" id="themeToggle" aria-label="Basculer le thème">🌗</button>
+      </div>
+      <button class="btn burger" id="burgerToggle" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Navigation mobile">
+      <a href="#/accueil" data-route>À propos</a>
+      <a href="#/entreprise" data-route>Entreprise</a>
+      <a href="#/articles" data-route>Articles</a>
+      <a href="#/contact" data-route>Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Accueil / À propos -->
+    <section id="accueil" class="active">
+      <div class="hero">
+        <div class="card">
+          <h1>Bonjour, moi c’est <span id="studentName">Gabin Rolland-Bertrand</span> 👋</h1>
+          <p>
+            Étudiant en Bachelor 2 Informatique, passionné par le développement Informatique.<br>
+            Ce blog‑portfolio présente mon parcours, mes expériences et mes réalisations, avec un focus sur mon <strong>stage B2</strong>.
+          </p>
+          <ul>
+            <li><strong>Parcours :</strong> Bachelor Informatique à Sophia Ynov Campus. Maîtrise de JavaScript, Python, HTML/CSS, PHP, SQL, Git.</li>
+            <li><strong>Objectif pro :</strong> Rechercher une alternance en Développement web ou Devellopement logiciel.</li>
+            <li><strong>Atouts :</strong> Autonomie, esprit d’équipe, adaptabilité, rigueur, curiosité technique.</li>
+          </ul>
+          <div class="kpis">
+            <div class="kpi"><strong id="kpiArticles"></strong><div>Articles publiés</div></div>
+            <div class="kpi"><strong id="kpiSkills"></strong><div>Compétences</div></div>
+            <div class="kpi"><strong id="kpiHours"></strong><div>de stage</div></div>
+          </div>
+          <p style="margin-top:10px">
+            <a id="linkedinLink" href="" target="_blank" rel="noopener">LinkedIn</a> · <a href="#/contact">Me contacter</a>
+          </p>
+        </div>
+        <div class="card">
+          <h2>Mes réalisations récentes</h2>
+          <div class="grid">
+            <div class="col-6">
+              <div class="kpi">
+                <strong>Gym-api</strong>
+                <div>API RESTful pour la gestion d'une salle de sport (abonnés, coachs, cours) réalisée avec Node.js, Express et Sequelize.</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="kpi">
+                <strong>Site E-commerce</strong>
+                <div>Création d'un site de E-commerce en PHP/Html/Css, qui permet permet une gestion complète des produits, des utilisateurs et des vendeurs</div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="kpi">
+                <strong>Veille</strong>
+                <div>Analyse des tendances actuelles en devellopement web et logiciel</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Entreprise -->
+    <section id="entreprise">
+      <div class="card">
+        <h1>Fun-Kart</h1>
+        <p>
+            Fun Kart, situé à Bar-sur-Loup, est un circuit de karting offrant une expérience 
+            de conduite accessible et encadrée. L’entreprise familiale accueille particuliers 
+            et groupes dans un cadre sécurisé et serieux.
+        </p>
+        <div class="timeline">
+          <div class="tl-item">
+            <h3>Contexte de la mission</h3>
+            <p>
+                J’ai intégré l’entreprise lors de la phase de finalisation de ses nouveaux locaux. 
+                Ma mission principale a consisté à assurer la migration complète du parc informatique vers 
+                ce nouvel environnement. J’ai proposé et déployé des solutions adaptées à l’infrastructure 
+                du bâtiment, tout en développant et améliorant le parc existant : installation et 
+                configuration de nouveaux périphériques (imprimantes et postes de travail), 
+                mise en place d’un réseau Wi-Fi public, ainsi que la création d’une application web 
+                dédiée à l’affichage des tarifs.
+            </p>
+          </div>
+          <div class="tl-item">
+            <h3>Résultats</h3>
+            <p>
+                La migration du parc informatique a été réalisée avec succès, 
+                permettant à l’entreprise d’exploiter ses nouveaux locaux dans des conditions 
+                optimales. Les postes de travail et périphériques ont été installés et 
+                configurés, le Wi-Fi public est opérationnel et utilisé par les clients, 
+                et l’application web d’affichage des tarifs est fonctionnelle. 
+                Ces actions ont contribué à améliorer la productivité interne
+                et à renforcer l’image professionnelle de l’entreprise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles -->
+    <section id="articles">
+      <div class="card">
+        <div class="articles-head">
+          <h1>Articles</h1>
+          <div class="articles-tools">
+            <input id="search" placeholder="Rechercher un article… (titre, tags)" />
+            <select id="filterTag" aria-label="Filtrer par tag">
+              <option value="">Tous les tags</option>
+            </select>
+            <button class="btn" id="newPostBtn" title="Dupliquer le template d’article dans l’éditeur">+ Nouveau</button>
+          </div>
+        </div>
+        <div class="posts" id="posts"></div>
+      </div>
+
+      <!-- Article modal -->
+      <dialog id="modal" class="modal">
+        <div class="card modal-card">
+          <article id="modalContent"></article>
+          <div class="modal-actions">
+            <button class="btn" onclick="modal.close()">Fermer</button>
+          </div>
+        </div>
+      </dialog>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="card">
+        <h1>Contact</h1>
+        <p>Vous pouvez me joindre via le formulaire ci‑dessous ou directement par email.</p>
+        <form id="contactForm">
+          <input id="name" placeholder="Votre nom" required />
+          <input id="email" type="email" placeholder="Votre email" required />
+          <textarea id="message" placeholder="Votre message" required></textarea>
+          <div class="contact-actions">
+            <button class="btn" type="submit">Envoyer</button>
+            <span id="formStatus" aria-live="polite" class="muted"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> • Mon Stage B2 • Fait avec HTML/CSS/JS
+    </div>
+  </footer>
+
+  <template id="postTemplate">
+    <article class="post">
+      <img alt="Illustration de l’article" loading="lazy" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" />
+      <div class="post-content">
+        <h3 class="post-title"></h3>
+        <p class="post-excerpt muted"></p>
+        <div class="post-tags"></div>
+        <button class="btn" data-open>Lire</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

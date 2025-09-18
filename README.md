@@ -23,17 +23,17 @@ Ce projet web présente :
 ## 🗂️ Structure du projet
 
 Rapport-Stage/
-│
-├── assets/
+├── assets/                 # Contient les fichiers statiques
 │   ├── css/
-│   │   └── styles.css
+│   │   └── styles.css      # Feuille de style principale
 │   ├── js/
-│   │   └── app.js
+│   │   └── app.js          # Script JavaScript principal
 │
-├── CV Gabin Rolland-Bertrand.pdf
-├── index.html
-├── README.md
-└── .gitattributes
+├── CV Gabin Rolland-Bertrand.pdf  # CV téléchargeable
+├── index.html             # Page principale du site
+├── README.md              # Fichier de documentation
+└── .gitattributes         # Configuration Git (optionnelle)
+
 
 ## 👤 Auteur
 

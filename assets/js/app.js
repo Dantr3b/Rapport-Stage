@@ -1,6 +1,6 @@
 const PROFILE = {
   name: "Gabin Rolland-Bertrand",
-  cvUrl: "Downloads/CV%20Gabin%20Rolland-Bertrand.pdf",
+  cvUrl: "CV Gabin Rolland-Bertrand.pdf",
   linkedin: "https://www.linkedin.com/in/gabin-rolland-bertrand-0aaa84277",
   kpi: { articles: 5, skills: 10, hours: 210 },
 };

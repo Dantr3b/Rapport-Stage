@@ -22,6 +22,7 @@ Ce projet web présente :
 
 ## 🗂️ Structure du projet
 
+```bash 
 Rapport-Stage/
 ├── assets/                 # Contient les fichiers statiques
 │   ├── css/
@@ -33,6 +34,9 @@ Rapport-Stage/
 ├── index.html             # Page principale du site
 ├── README.md              # Fichier de documentation
 └── .gitattributes         # Configuration Git (optionnelle)
+
+
+```
 
 
 ## 👤 Auteur

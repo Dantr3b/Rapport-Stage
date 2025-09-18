@@ -23,7 +23,18 @@ Ce projet web présente :
 ## 🗂️ Structure du projet
 
 ```bash 
-Rapport-Stage/ ├── assets/ # Contient les fichiers statiques │ ├── css/ │ │ └── styles.css # Feuille de style principale │ ├── js/ │ │ └── app.js # Script JavaScript principal │ ├── CV Gabin Rolland-Bertrand.pdf # CV téléchargeable ├── index.html # Page principale du site ├── README.md # Fichier de documentation └── .gitattributes # Configuration Git (optionnelle)
+Rapport-Stage/
+├── assets/                 # Contient les fichiers statiques
+│   ├── css/
+│   │   └── styles.css      # Feuille de style principale
+│   ├── js/
+│   │   └── app.js          # Script JavaScript principal
+│
+├── CV Gabin Rolland-Bertrand.pdf  # CV téléchargeable
+├── index.html             # Page principale du site
+├── README.md              # Fichier de documentation
+└── .gitattributes         # Configuration Git (optionnelle)
+
 
 ```
 
